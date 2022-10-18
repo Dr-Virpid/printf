@@ -2,10 +2,8 @@
 
 /**
  * get_handl_func - map specifier with appropriate function
- *
  * @s: specifier
  * @index: index for argument identifier
- *
  * Return: pointer to function
  */
 int (*get_handl_func(const char *s, int index))(va_list, char *, unsigned int)
