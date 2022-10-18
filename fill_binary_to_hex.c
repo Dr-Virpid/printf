@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * fill_binary_to_hex - converts binary to hex
+ * fill_binary_to_hex - converts binary to hexadecimal
  *
  * @bnr: binary pointer
- * @hex: hex pointer
+ * @hex: pointer to the hexadecimal number
  * @isupp: is hex in uppercase
  * @limit: size of hex
  *
@@ -32,4 +32,3 @@ char *fill_binary_to_hex(char *bnr, char *hex, int isupp, int limit)
 	}
 	return (hex);
 }
-
