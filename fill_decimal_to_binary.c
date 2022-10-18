@@ -2,12 +2,10 @@
 
 /**
  * fill_decimal_to_binary - decimal to binary
- *
  * @binary: pointer to output
  * @input: input decimal
  * @isneg: is negative
  * @limit: size of binary
- *
  * Return: pointer to output
  */
 char *fill_decimal_to_binary(char *binary, long int input
