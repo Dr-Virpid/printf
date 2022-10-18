@@ -6,12 +6,11 @@
 #include <stdlib.h>
 
 /**
- * struct handler - Struct handler
- *
- * @spec - Given string
- * @f - handler function
+ * struct format_handler - Struct handler
+ * @specifier: format specifier
+ * @f: assosciated function to handle format specifier
  */
-typedef struct handl
+typedef struct format_handler
 {
 	char *specifier;
 	int (*f)(va_list, char *, unsigned int);
