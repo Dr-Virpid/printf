@@ -2,10 +2,8 @@
 
 /**
  * fill_binary_to_oct - converts binary to oct
- *
  * @bnr: binary pointer
  * @oct: oct pointer
- *
  * Return: oct pointer
  */
 char *fill_binary_to_oct(char *bnr, char *oct)
@@ -26,4 +24,3 @@ char *fill_binary_to_oct(char *bnr, char *oct)
 	}
 	return (oct);
 }
-
