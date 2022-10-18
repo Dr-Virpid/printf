@@ -23,8 +23,7 @@ int _printf(const char *format, ...)
 	for (i = 0; format && format[i]; i++)
 	{
 		if (format[i] == '%')
-		{
-			i++;
+		{	i++;
 			if (format[i] == '%')
 				handl_buf(buffer, format[i], ibuf), len++;
 			else if (format[i] == '\0')
@@ -33,8 +32,7 @@ int _printf(const char *format, ...)
 				return (-1);
 			}
 			else
-			{
-				handler = get_handl_func(format, i);
+			{	handler = get_handl_func(format, i);
 				if (handler == NULL)
 				{
 					if (format[i + 1] == ' ' && !format[i + 2])
